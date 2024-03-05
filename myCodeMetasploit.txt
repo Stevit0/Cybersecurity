@@ -1,0 +1,40 @@
+	myCodeMetasploit
+Mycode			Function
+
+msconsole		start
+ls
+ping -c 1 8.8.8.8	host up or down?
+clear			clear screen
+
+help set		set is the command you ask help for
+history			a reminder about the code you have been using
+he + [tab]			shortcut to help, 
+use exploit/...
+ls			shows the context that has been set
+show options
+Show payloads		use and show options commands are foor al modules.
+back			leave context
+info			furhter information about any module.
+Search			search your modules
+use 0			use number 0
+search type: ...	There is a search and filter skill to develop.
+
+
+	metasploit in practice
+myCode			Function
+use
+use eternalblue		you choose module
+use 0
+Show options		shows options in your module
+set rhosts <ip>, <port>	set value to parameter
+show options		is it set as you want?
+set rhosts file:	conform listed targets in file
+set: rport, payload, lhost, lport, session (your parameters)
+unset all		clears all of your parameters values
+setg			set values to parameters all modules
+unsetg
+exploit -z
+background or ctrl z
+session				show session
+session -i <number>		interact session
+
