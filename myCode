@@ -1,0 +1,37 @@
+sudo apt-get update
+cd /home/<accountname>/Downloads
+sudo openvpn node-nl-106.protonvpn.net.udp.ovpn
+(usrname) + (pswd)
+pwd
+iwconfig
+ip a
+ping -c 4 <ip>
+
+nmap -sL <ip>
+ping - c 		.. live hosts
+telnet <ip>
+nmap -PR -sn <ip> = 	.. hosts up including their ip
+arp-scan -l = .. hosts up
+nmap -PM -sn <ip> 	[ different ways to compare result]
+nmap -PE -sn <ip>
+
+TCP SYN PING
+nmap -PS -sn <ip>-
+sudo nmap -PA -sn <ip>-
+sudo nmap -PU -sn <ip>-
+
+ALL INCLUSIVE SCAN
+Nmap -A -p- <ip> -vv ( how can i be less noisy and more stealth? ) how can i scan quicker?
+
+
+BASIC SCAN AND BASIC PENTEST ON BRUTE FORCE
+/Desktop/ mkdir nmapReport
+Nmap -p- TARGET ( quick scan code ?) ( SAVE RESULTS CODE?)
+....... ( discover more info about the open ports you have found)
+
+gobuster dir -u TARGET -w rockyou.txt(confirm toducment in /usr/share/wordlists or /seclists.
+ and then wait for results.
+
+
+
+
