@@ -1,4 +1,4 @@
-sudo apt-get update
+sudo apt-get update && sudo apt-get upgrade
 cd /home/<accountname>/Downloads
 sudo openvpn node-nl-106.protonvpn.net.udp.ovpn
 (usrname) + (pswd)
